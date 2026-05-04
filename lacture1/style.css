@@ -1,0 +1,25 @@
+.container{
+     justify-content: center;
+    height: 18vh;
+    display:flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#p{
+   text-align:center; 
+}
+.head{
+    text-decoration:underline;
+    text-weight:bold;
+}
+p{
+    text-weight:bold;
+}
+#pr{
+     color: green;
+    font-style: italic;
+    font-weight: bold;
+}
