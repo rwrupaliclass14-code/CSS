@@ -1,0 +1,58 @@
+.t{
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    padding: 31px;
+    margin: 0px;
+    margin-bottom: 25px;
+    padding-bottom: 26px;
+}
+caption{
+    
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 31px;
+    margin: 0px;
+    margin-bottom: 25px;
+    padding-bottom: 26px;
+}
+.td1{
+     color: rgb(6, 6, 6);
+    background-color: rgb(226, 224, 224);
+    padding: 31px;
+    font-weight: bold;
+    text-align: center;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    background-color: blue;
+    color: #fefdfb;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px 0px 10px 0px;
+
+}
+.pass{
+    color: green;
+    font-weight: bold;
+
+}
+#fail{
+    color: red;
+    font-weight: bold;
+}
+tr{
+    padding: 10px;
+    margin: 0px;
+
+}
+th{
+    padding: 10px;
+    margin: 0px;
+}
