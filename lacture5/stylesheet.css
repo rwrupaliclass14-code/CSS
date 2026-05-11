@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 500%;
+    background-color: #edeff8;
+}
+.box{
+    width: 90px;
+    margin-top: 29px;
+}
+h3{
+    position: absolute;
+    top: 62px;
+    left: 6%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.box1{
+    width: 45%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 26%;
+    border-radius: 10px 10px 10px;
+}
+.p1{
+    color: #bcb7b7;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+h1{
+    margin-block-start: 0.70em;
+    left: 10%;
+    position: absolute;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.input{
+    width: 50%;
+  padding: 12px 20px;
+   border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-block-start: 5em;
+left: 10%;
+position: absolute;
+  }
+  .check{
+    margin-block-start: 7em;
+    left: 10%;
+    position: absolute;
+  }
+  .blue{
+     color: #0ba8e8;
+    font-weight: 100;
+  }
+
+  .btn {
+  background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%);
+}
+  .btn{
+    
+    margin-block-start: 12em;
+    position: absolute;
+    left: 11%;
+    padding: 12px 140px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: 800;
+  }
+  .btn:hover {
+  background-position: right center;
+  color: #fff;
+}
+.img{
+    width: 30px;
+     margin-top: 3px;
+     font-size: 15px;
+
+}
+.sign{
+    margin-top: 3px;
+     font-size: 15px;
+     color: black;
+}
+.google{
+  width: 61%;
+    height: 8%;
+    border: 1px solid #f4ebeb;
+    border-radius: 7px;
+    margin-block-start: 18em;
+    left: 10%;
+    position: absolute;
+}
+.p2{
+     color: #bcb7b7;
+    margin-top: 47%;
+    margin-left: 27%;
+}
+   
