@@ -1,0 +1,289 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #EDF2F7;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: #1A6CCC;
+    color: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-name a {
+    color: #ffffffad;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 135%;
+    margin: 30px auto;
+    padding: 0 20px;
+
+}
+
+.sidebar {
+    width: 250px;
+    border-radius: 8px;
+    padding: 20px 0;
+    border: 1px solid lightgray;
+    margin-right: 25px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    background-color: white;
+    border-radius: 4px;
+    width: 23%;
+    height: 65%;
+    margin: 10px;
+}
+
+.sidebar-menu li {
+    padding: 15px 25px;
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.sidebar-menu li i {
+    width: 20px;
+    margin-right: 15px;
+}
+
+.sidebar-menu li.active {
+    border-radius: 0px 40px 40px 00px;
+    width: 200px;
+    background-color: lightblue;
+    color: blue;
+    font-weight: bold;
+
+}
+
+.sidebar-footer {
+    margin-top: 60px;
+    padding: 0 25px;
+    font-size: 12px;
+    color: gray;
+    line-height: 1.6;
+}
+
+.main-content {
+    width: 100%;
+    height: 76%;
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-sellers-text {
+    color: #1a56db;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.filter-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.filter-icon {
+    width: 20px;
+    opacity: 0.6;
+}
+
+.right-all-seller-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.right-seller-detail-box {
+    display: flex;
+    margin: 10px;
+}
+
+.right-seller-detail-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.right-seller-detail-box img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.article {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.article div {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.article img {
+    height: 130px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+.article-text {
+    display: flex;
+    margin: 10px;
+}
+
+.article-text p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 60px;
+    color: #B0B0B0;
+}
+
+.blue-text {
+    color: #1A6CCC;
+}
+
+.title-section-s {
+    width: 107%;
+    height: 70%;
+    margin-top: 50px;
+    margin-left: -20px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 29px;
+}
+
+.title-section-contain {
+    display: flex;
+}
+
+.foot-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input {
+    margin: 10px;
+    padding: 11px 185px;
+    border-radius: 30px;
+    border-color: lightgray;
+}
+
+.foot-btn {
+    margin: 10px;
+    margin-left: -15px;
+    height: 37px;
+    padding: 0px 25px;
+    border-radius: 19px;
+    border: none;
+    background-color: #1A6CCC;
+}
+
+hr {
+    margin: 20px;
+}
+
+.foot-contain {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 50px;
+
+}
+
+
+
+
+.foot-box img {
+    height: 100px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot-text {
+
+    padding: 5px;
+    color: #848383;
+    font-weight: bold;
+
+}
+
+.blue-foot {
+    color: #1A6CCC;
+    font-weight: bold;
+}
