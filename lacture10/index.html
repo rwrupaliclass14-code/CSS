@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lacture-10</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="d-flex">
+        <section class="left-section">
+            <div class="logo-name d-flex align-center just-center ">
+                <i class="ri-community-fill font-size"></i>
+                <h2>HRM Portal</h2>
+            </div>
+            <div class="side-menu align-center just-center">
+                <ul class="side-menu-ul ">
+                    <li class="side-menu-li-active "><i class="ri-dashboard-line"> </i>Dashboard</li>
+                    <li><i class="ri-time-fill"></i> Attendance</li>
+
+                    <li><i class="ri-calendar-2-line"></i>
+                        <select name="leave_type" id="leave_type" class="select">
+                            <option value="" disabled selected> Leave</option>
+                            <option value="apply">Apply leave</option>
+                            <option value="my_leave">My leave</option>
+                            <option value="policy">Leave policy</option>
+                            <option value="submit">Leave submit</option>
+                        </select>
+                    </li>
+
+                    <li><i class="ri-file-text-line"></i> Pay slip</li>
+                    <li><i class="ri-file-line"></i> Document</li>
+                    <li><i class="ri-user-3-line"></i> Profile</li>
+                </ul>
+            </div>
+            <div class="hr text-center"></div>
+            <div class="side-menu-foot-box just-start text-bold">
+                <div class="side-menu-foot-icon">
+                    <i class="ri-settings-2-line"> Setting</i>
+                </div>
+                <div>
+                    <i class="ri-logout-box-r-line"> Log out</i>
+                </div>
+            </div>
+
+        </section>
+        <section class="right-section">
+
+            <nav class="d-flex just-start align-center just-space">
+                <div class="nav-search d-flex align-center just-start">
+                    <i class="ri-search-ai-line"></i>
+                    <input type="text" placeholder="Search people, leave, polices " />
+                </div>
+                <div class="nav-notification d-flex align-center just-space">
+                    <div class="font-bold font-size"><i class="ri-notification-2-line"></i>
+                    </div>
+                    <div class="nav-profile d-flex align-center">
+                        <img src="https://placeholdpicsum.dev/photo/id/722/300/200" alt="profilepic">
+                        <div class="nav-profile-text d-flex">
+                            <h2>Zubaer Rahman</h2>
+                            <p class="gray font-bold">UI|UX Designer</p>
+                        </div>
+
+                    </div>
+                    <div class="nav-drop d-flex font-bold"><i class="ri-arrow-drop-down-line"></i></div>
+                </div>
+            </nav>
+            <div class="contain font-bold">
+                <h2>Welcome Back,Zubaer</h2>
+                <p class="dark-gray font-bold">Manage your leave and track your time off</p>
+            </div>
+            <div class="content-box d-flex">
+                <div class="content-grid-box">
+                    <h3 class="grid-box-h3"> Leave Summary</h3>
+                    <div>
+                        <div class="grid-leave-summary-box">
+
+                            <div class="grid-leave-summary-1 d-flex just-space align-center">
+                                <i class="ri-database-line font-bold font-size"></i>
+                                <span class="text-gray">Annual leave
+                                    <p class="text-bolder">12/18</p>Days remaining
+                                </span>
+
+                                <div>
+                                    <i class="ri-more-2-line font-bold font-size"></i>
+                                </div>
+                            </div>
+
+                            <div class=" grid-leave-summary-2 d-flex just-space align-center">
+                                <i class="ri-database-line l-yellow font-bold font-size"></i>
+                                <span class="text-gray">Sick leave
+                                    <p class="text-bolder">6/10</p>Days remaining
+                                </span>
+
+                                <div>
+                                    <i class="ri-more-2-line font-bold font-size"></i>
+                                </div>
+                            </div>
+
+
+
+                            <div class=" grid-leave-summary-3 d-flex just-space align-center">
+                                <i class="ri-database-line green font-bold font-size d-flex"></i>
+                                <span class="text-gray ">Causal leave
+                                    <p class="text-bolder">2/5</p>Days remaining
+                                </span>
+
+                                <div>
+                                    <i class="ri-more-2-line font-bold font-size d-flex"></i>
+                                </div>
+                            </div>
+
+                            <div class=" grid-leave-summary-4 d-flex just-space align-center">
+                                <i class="ri-database-line red font-bold font-size d-flex"></i>
+                                <span class="text-gray">Unpaid leave
+                                    <p class="text-bolder">Available</p>when needed
+                                </span>
+
+                                <div>
+                                    <i class="ri-more-2-line font-bold font-size d-flex"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="grid-btn-box">
+                            <button class="grid-btn d-flex align-center font-bold">Apply leave</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="today-status ">
+                    <h3 class="today-box-h3 d-flex"> Today Status</h3>
+                    <div class="today-status-time d-flex">
+
+                        <div class="today-status-time-box d-flex align-center">
+                            <i class="ri-time-line green font-bold font-size"></i>
+                            <span class="text-gray">
+                                Status<br>
+                                <p class="text-bolder">Working from office</p>
+                            </span>
+                        </div>
+
+                        <div class="today-status-time-box d-flex align-center">
+                            <i class="ri-time-line blue font-bold font-size"></i>
+                            <span class="text-gray">
+                                Working Hours<br>
+                                <p class="text-bolder">9:00 Am- 6:00 PM</p>
+                            </span>
+                        </div>
+
+                        <div class="today-status-time-box d-flex align-center">
+                            <i class="ri-time-line l-yellow font-size font-bold"></i>
+                            <span>
+                                Entry Time<br>
+                                <p class="text-bolder">9:00 Am</p>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="Quick-action">
+                <h3 class=""> Quick Action</h3>
+                <div class="Quick-action-box d-flex  just-center align-center">
+                    <div class="Quick-action-leave1 d-flex bg-blue just-center align-center">
+                        <i class="ri-calendar-event-line d-flex align-center just-center font-bold font-size"></i>
+                        <span>
+                            <p class="text-gray text-bold">Apply leave<br>Request time off</p>
+                        </span>
+                    </div>
+
+                    <div class="Quick-action-leave2 d-flex just-center align-center bg-green">
+                        <i class="ri-file-text-line d-flex align-center just-center font-bold font-size green"></i>
+                        <span>
+                            <p class="text-gray text-bold">My leave History<br>View all request</p>
+                        </span>
+                    </div>
+
+                    <div class="Quick-action-leave3 d-flex bg-blue just-center align-center">
+                        <i class="ri-file-text-line d-flex align-center just-center font-bold font-size red"></i>
+                        <span>
+                            <p class="text-gray text-bold">Apply leave<br>Request time off</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
