@@ -76,7 +76,7 @@ body {
 }
 
 .gray {
-    color: lightgray;
+    color: #7a7676;
 }
 
 .dark-gray {
@@ -147,6 +147,10 @@ body {
     font-size: 18px;
 }
 
+.side-menu-li {
+    margin-left: 39px;
+}
+
 .side-menu-ul {
     font-weight: 500;
     color: rgb(48, 45, 45);
@@ -156,6 +160,12 @@ body {
     border: none;
     font-size: 16px;
     font-weight: 500;
+}
+
+.setting {
+    font-size: 16px;
+    font-weight: 500;
+
 }
 
 li {
@@ -177,12 +187,17 @@ li {
     gap: 15px;
     padding: 28px;
     font-size: 18px;
-    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-left: 23px;
 
 }
 
 .side-menu-foot-box div:last-child {
     color: #bc524c;
+    font-size: 16px;
+    font-weight: 500;
+
 }
 
 .right-section {
@@ -212,6 +227,9 @@ nav {
 }
 
 .nav-search input {
+    width: 443px;
+    display: flex;
+    justify-content: start;
     padding: 5px;
     background-color: white;
     outline: none;
@@ -267,7 +285,7 @@ nav {
 }
 
 .grid-box-h3 {
-    padding: 20px;
+    padding: 18px;
 }
 
 .grid-leave-summary-1 {
@@ -280,7 +298,7 @@ nav {
 .grid-leave-summary-box>div {
     height: 130px;
     border-radius: 8px;
-    padding: 10px;
+    padding: 34px;
 }
 
 .grid-leave-summary-2 {
@@ -338,7 +356,7 @@ nav {
 
 .today-status {
     margin: 4px;
-    width: 40%;
+    width: 34%;
     height: 450px;
     border-radius: 4px;
     background-color: white;
@@ -346,7 +364,7 @@ nav {
 
 .today-box-h3 {
     width: 100%;
-    padding: 25px;
+    padding: 20px;
 }
 
 .today-status-time {
@@ -378,12 +396,13 @@ nav {
     margin-left: 15px;
 }
 
-.Quick-action h3 {
-    padding: 10px;
+.quick-h3 {
+    padding: 23px;
 }
 
 .Quick-action-box {
-    margin: 20px;
+    margin-top: -12px;
+    margin-left: -15px;
     justify-content: space-around;
 }
 
@@ -448,14 +467,21 @@ nav {
     border-radius: 8px;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
 .p-text {
+    margin: 5px;
     color: black;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 14px;
+    flex-direction: column;
 }
 
 .small-text {
+    margin: 5px;
     font-size: 11px;
     color: rgb(99, 97, 97);
     font-family: sans-serif;

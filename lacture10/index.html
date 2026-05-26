@@ -26,9 +26,9 @@
             <div class="side-menu align-center just-center">
                 <ul class="side-menu-ul ">
                     <li class="side-menu-li-active "><i class="ri-dashboard-line"> </i>Dashboard</li>
-                    <li><i class="ri-time-fill"></i> Attendance</li>
+                    <li class="side-menu-li"><i class="ri-time-fill"></i> Attendance</li>
 
-                    <li><i class="ri-calendar-2-line"></i>
+                    <li class="side-menu-li"><i class="ri-calendar-2-line"></i>
                         <select name="leave_type" id="leave_type" class="select">
                             <option value="" disabled selected> Leave</option>
                             <option value="apply">Apply leave</option>
@@ -38,18 +38,20 @@
                         </select>
                     </li>
 
-                    <li><i class="ri-file-text-line"></i> Pay slip</li>
-                    <li><i class="ri-file-line"></i> Document</li>
-                    <li><i class="ri-user-3-line"></i> Profile</li>
+                    <li class="side-menu-li"><i class="ri-file-text-line"></i> Pay slip</li>
+                    <li class="side-menu-li"><i class="ri-file-line"></i> Document</li>
+                    <li class="side-menu-li"><i class="ri-user-3-line"></i> Profile</li>
                 </ul>
             </div>
             <div class="hr text-center"></div>
-            <div class="side-menu-foot-box just-start text-bold">
+            <div class="side-menu-foot-box just-start">
                 <div class="side-menu-foot-icon">
-                    <i class="ri-settings-2-line"> Setting</i>
+                    <i class="ri-settings-2-line">
+                        <span class="setting">Setting</span>
+                    </i>
                 </div>
                 <div>
-                    <i class="ri-logout-box-r-line"> Log out</i>
+                    <i class="ri-logout-box-r-line"> <span>Log out</span></i>
                 </div>
             </div>
 
@@ -160,7 +162,7 @@
 
                         <div class="today-status-time-box d-flex align-center">
                             <i class="ri-time-line l-yellow font-size font-bold"></i>
-                            <span>
+                            <span class="text-gray">
                                 Entry Time<br>
                                 <p class="text-bolder">9:00 Am</p>
                             </span>
@@ -170,11 +172,11 @@
                 </div>
             </div>
             <div class="Quick-action">
-                <h3 class=""> Quick Action</h3>
+                <h3 class="quick-h3"> Quick Action</h3>
                 <div class="Quick-action-box d-flex  just-center align-center">
                     <div class="Quick-action-leave1 d-flex bg-blue just-start align-center">
                         <i class="ri-calendar-event-line d-flex align-center just-center font-bold font-size"></i>
-                        <span>
+                        <span class="d-flex align-start flex-col">
                             <p class="p-text">Apply leave</p>
                             <p class="small-text">Request time off</p>
                         </span>
@@ -182,15 +184,15 @@
 
                     <div class="Quick-action-leave2 d-flex just-start align-center bg-green">
                         <i class="ri-file-text-line d-flex align-center just-center font-bold font-size green"></i>
-                        <span>
+                        <span class="d-flex align-start flex-col">
                             <p class="p-text">My leave History</p>
-                            <p class="small-text">View all request</p>
+                            <p class="small-text"> View all request</p>
                         </span>
                     </div>
 
                     <div class="Quick-action-leave3 d-flex bg-blue just-start align-center">
                         <i class="ri-file-text-line d-flex align-center just-center font-bold font-size red"></i>
-                        <span>
+                        <span class="d-flex just-center flex-col">
                             <p class="p-text">Apply leave</p>
                             <P class="small-text">Request time off</P>
                         </span>
