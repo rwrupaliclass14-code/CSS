@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Akt:wght@100..900&family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akt:wght@100..900&family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Kalam:wght@300;400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Google Sans Code", monospace;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.yellow {
+
+    margin-left: 41px;
+    width: 1146px;
+    text-align: start;
+    background-color: #FFFBCC;
+}
+
+.green {
+    margin-left: 11px;
+    width: 1112px;
+    text-align: start;
+    background-color: #C5E1A5;
+}
+
+.blue {
+    width: 1156px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #d8f7fb;
+
+}
+
+.gray {
+    background-color: #F2F2F2;
+}
+
+.red {
+    color: #FF6347;
+}
+
+.article {
+    height: 206px;
+    margin: 15px;
+    border: 2px solid #d0cdcd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h4::first-letter {
+    color: #FF6347;
+    font-size: 30px;
+}
+
+h4 {
+    margin: 15px;
+    font-size: 18px;
+}
+
+.Lorem {
+    text-align: start;
+    margin-left: 40px;
+}
+
+.white {
+    background-color: white;
+}
+
+.font-i {
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+}
+
+.last-p {
+    text-align: start;
+    margin: 20px;
+    margin-left: 41px;
+}
+
+p {
+    color: #5a5a5a;
+}
+
+span {
+    background-color: #ff6347;
+    padding: 2px;
+    margin-right: 15px;
+}
