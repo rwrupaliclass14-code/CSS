@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Amazon Ember;
+    src: url(assets/fonts/Amazon\ Ember.ttf);
+}
+
+@font-face {
+    font-family: Amazon Ember Medium;
+    src: url(assets/fonts/Amazon\ Ember\ Medium.ttf);
+}
+
+@font-face {
+    font-family: Amazon Ember Bold;
+    src: url(assets/fonts/Amazon\ Ember\ Cd\ RC\ Bold.otf);
+}
+
+@font-face {
+    font-family: Amazon Ember Italic;
+    src: url(assets/fonts/Amazon\ Ember\ Italic.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Amazon Ember;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0.221);
+}
+
+.left-nav-bar {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.left-nav-bar>img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-bar a:hover {
+    background-color: white;
+    border-radius: 8px;
+    color: navy;
+}
