@@ -205,11 +205,33 @@ ul {
     text-align: center;
 }
 
-.blog-mg {
+.blog-mg-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 179px;
 }
 
 .blog-mg img {
     width: 200px;
+}
+
+.grey {
+    color: gray;
+}
+
+.bg-grey {
+    background-color: gray;
+}
+
+.Footer Section {
+    height: 400px;
+}
+
+footer {
+    height: 100px;
+    background-color: grey;
+}
+
+.foot-details {
+    display: flex;
 }
