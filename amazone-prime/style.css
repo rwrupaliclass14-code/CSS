@@ -28,27 +28,41 @@
 body {
     height: 100vh;
     width: 100%;
+    background-color: black;
+}
+
+.font-size {
+    font-size: 18px;
+}
+
+.white {
+    color: white;
 }
 
 nav {
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 999;
 }
 
 .nav-bar {
+    position: fixed;
     width: 90%;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    background-color: rgba(0, 0, 0, 0.221);
+    padding: 0px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 0px 0px 10px 10px;
 }
 
 .left-nav-bar {
     display: flex;
     align-items: center;
-    margin: 10px;
+
 }
 
 .left-nav-bar>img {
@@ -62,8 +76,313 @@ nav {
     padding: 10px 20px;
 }
 
+.join-prime-btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
 .nav-bar a:hover {
     background-color: white;
     border-radius: 8px;
     color: navy;
+}
+
+.nav-bar .rounded-100:hover {
+    padding: 10px 12px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(0, 0, 30);
+}
+
+.join-prime-btn {
+    margin-right: 10px;
+    font-weight: 500;
+    background-color: rgba(26, 152, 225, .8);
+    border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: .035em;
+    cursor: pointer;
+    border: none;
+}
+
+
+.hero {
+    height: 90%;
+    width: 100%;
+    background: url(https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_SpiderNoir_S1_SpiderSoloBW/945a746a-ba1d-4f20-be5a-13aef6ee49ff._UR3840,1440_SX2160_FMwebp_.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.hero-prime-logo {
+    width: 59px;
+    height: 35px;
+}
+
+.hero-movie-name {
+    width: 262px;
+    height: 129px;
+}
+
+.join-prime-btn:hover {
+    background-color: #2a9fff;
+    box-shadow: 0px 7px 50px #3fa5f9;
+}
+
+.hero-details {
+    height: 100%;
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-rank {
+    color: #37F1A3;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+
+.hero-description {
+    font-size: 18px;
+    font-weight: 500;
+    width: 450px;
+}
+
+.hero-join-prime-btn {
+    padding: 8px 21px;
+    font-weight: 600;
+    background-color: #ffffff33;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin-right: 10px;
+}
+
+.hero-add-btn,
+.hero-detail-btn {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #ffffff33;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+
+.hero-btn-grp {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.ri-shopping-bag-fill {
+    color: #FFD62C;
+}
+
+.hero-box {
+    width: 90%;
+}
+
+.top-Movies {
+    width: 100%;
+}
+
+.top-movie-grp {
+    margin: 12px;
+}
+
+.ri-funds-line {
+    font-size: 32px;
+}
+
+
+.movie-title {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.movie-title h3 {
+    margin-left: 64px;
+}
+
+
+
+.movie-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 8px;
+
+}
+
+.movie-menu-box {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    height: 200px;
+}
+
+.back-img {
+    height: 65px;
+    width: 65px;
+    margin-left: 34px;
+}
+
+.font-image {
+    position: absolute;
+    left: 80px;
+    height: 150px;
+    width: 230px;
+    box-shadow: 0px 10px 50px #2d2d2d;
+    border-radius: 8px;
+}
+
+.font-image:hover {
+    transform: scale(1.10);
+
+}
+
+.second-top-movie {
+    width: 100%;
+}
+
+.title-tv-more {
+    margin-left: 64px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.ri-arrow-right-s-line {
+    font-size: 32px;
+}
+
+.second-top-movie {
+    width: 100%;
+
+}
+
+.second-top-movie-grp {
+    margin: 12px;
+}
+
+.title-tv-more {}
+
+.second-movie-menu-box {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    height: 200px;
+}
+
+.movie-list-more {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+    padding: 8px;
+
+}
+
+.font-image-2 {
+    position: absolute;
+    left: 80px;
+    height: 150px;
+    width: 230px;
+    box-shadow: 0px 10px 50px #2d2d2d;
+    border-radius: 8px;
+}
+
+.font-image-2:hover {
+    transform: scale(1.10);
+
+}
+
+.language-box span {
+    margin: 6px 0;
+    padding: 10px 12px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.language-box span:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.language-box {
+    top: 70px;
+    right: 0;
+    width: 680px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    font-weight: 600;
+    align-items: start;
+    justify-items: start;
+    padding: 20px 25px;
+    border-radius: 12px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+
+    /* Amazon Prime Style Glassmorphism - now works! */
+    background: rgba(20, 20, 35, 0.45);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+    transition:
+        opacity 0.25s ease,
+        visibility 0.25s ease;
+}
+
+.language-box.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.language-button {
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.language-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.language-button:hover~.language-box {
+    visibility: visible;
+    opacity: 1;
+}
+
+.language-box:hover {
+    visibility: visible;
+    opacity: 1;
 }
