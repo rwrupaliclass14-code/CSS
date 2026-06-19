@@ -1,0 +1,364 @@
+@font-face {
+    font-display: optional;
+    font-family: NKufi;
+    font-weight: 400;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/kufi/v4/HandsetSansKufiArabic-Regular.woff2) format("woff2"), url(https://assets.nflxext.com/ffe/siteui/fonts/kufi/v4/HandsetSansKufiArabic-Regular.woff) format("woff")
+}
+
+@font-face {
+    font-display: optional;
+    font-family: NKufi;
+    font-weight: 500;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/kufi/v4/HandsetSansKufiArabic-Bold.woff2) format("woff2"), url(https://assets.nflxext.com/ffe/siteui/fonts/kufi/v4/HandsetSansKufiArabic-Bold.woff) format("woff")
+}
+
+.nkufi-font-loaded {
+    font-family: NKufi, Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
+}
+
+@font-face {
+    font-display: optional;
+    font-family: GraphikTH;
+    font-weight: 400;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/graphik/v2/GraphikTH-Medium.woff2) format("woff2"), url(https://assets.nflxext.com/ffe/siteui/fonts/graphik/v2/GraphikTH-Medium.woff) format("woff")
+}
+
+@font-face {
+    font-display: optional;
+    font-family: GraphikTH;
+    font-weight: 500;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/graphik/v2/GraphikTH-Bold.woff2) format("woff2"), url(https://assets.nflxext.com/ffe/siteui/fonts/graphik/v2/GraphikTH-Bold.woff) format("woff")
+}
+
+.graphik-font-loaded {
+    font-family: GraphikTH, Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    margin: 0px;
+}
+
+.font-size {
+    font-size: 22px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.grey {
+    color: rgb(183, 180, 180);
+}
+
+.white {
+    color: white;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.black-bg {
+    background: #00000090;
+    height: 100%
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/8027eb3f-343a-499d-9892-e683c12e3cb1/web/IN-en-20260608-TRIFECTA-perspective_d70af879-e407-4aee-8615-4c82210065d5_large.jpg);
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo img {
+    width: 226px;
+    margin-left: 105px;
+}
+
+.header-right-option {
+    height: 100px;
+    width: 40%;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.header-language {}
+
+select {
+    padding: 8px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+option {
+    background-color: white;
+    color: navy;
+}
+
+.sign-btn {
+    background-color: #C11119;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px 10px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.sign-btn:hover {
+
+    color: white;
+    background-color: #940b12;
+}
+
+.center-box {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-center-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.center-title {
+    font-size: 60px;
+    color: white;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+input {
+    padding: 17px 100px;
+    background-color: rgb(12, 12, 12);
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid gray;
+
+
+}
+
+.get-started-btn {
+    background-color: #C11119;
+    color: white;
+    border-radius: 4px;
+    font-size: 23px;
+    padding: 8px 30px;
+    border: none;
+}
+
+.get-started-btn:hover {
+    color: white;
+    background-color: #940b12;
+}
+
+.trending-container {
+    position: relative;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.curve-header {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 120%;
+    height: 100px;
+    background: transparent;
+    border-top: 2px solid #e50914;
+    border-radius: 50%;
+    box-shadow: 0px -5px 25px rgba(229, 9, 20, 0.8);
+    z-index: 1;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain-box {
+    margin-top: 25px;
+    width: 70%;
+    height: 100%;
+}
+
+.contain-box h2 {
+
+    color: white;
+    margin-top: 20px;
+}
+
+.marg-top {
+    margin-top: 27px;
+
+}
+
+.container-list {
+    max-width: 100%;
+    scroll-behavior: smooth;
+    display: flex;
+    overflow-x: auto;
+    gap: 40px;
+    padding: 20px;
+    scrollbar-width: none;
+}
+
+.container-img img,
+.container-More-div {
+    border-radius: 8px;
+}
+
+.container-More-div {
+    height: 100%;
+    width: 100%;
+}
+
+.container-More {
+    max-width: 100%;
+
+    display: flex;
+
+    gap: 20px;
+    scrollbar-width: none;
+}
+
+.more-detail {
+    width: 207px;
+    height: 308px;
+    background-image: linear-gradient(#1A1F40, #1F1425);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center
+}
+
+.more-images {
+    width: 100px;
+    margin-left: 100px;
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.arrow-images {
+    width: 98px;
+    margin-left: 100px;
+}
+
+.frequently {
+    margin: 20px 0px 20px 0px;
+}
+
+.freq-detail {
+    background-color: #414141;
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 12px;
+    font-size: 26px;
+    border: none;
+    align-items: center;
+}
+
+.freq-li {
+    margin: 0px 0px 10px;
+}
+
+.ri-add-large-line {
+    font-size: 40px;
+}
+
+.contant-submit {
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+}
+
+.contant-submit>h3 {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contant-form {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: rgb(183, 182, 182);
+
+}
+
+li {
+    list-style: none;
+}
+
+.foot-grid-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.foot-p {
+    margin-bottom: 60px;
+}
+
+.foot-list {
+    margin-bottom: 60px;
+}
+
+.marg-bott {
+    margin-bottom: 45px;
+}
